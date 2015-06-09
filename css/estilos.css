@@ -1,0 +1,448 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face { font-family: "AlteHaasGroteskRegular"; src: url("../fonts/AlteHaasGroteskRegular.ttf");}
+
+#CertificadoNegativoCatastral,#ConstanciaDeLinderosYMedidasPerimetricas,#ConstanciaDeFichaCatastral,#HojaInformativaCatastral,#PlanoCatastral,#VisacionDePlanos,#ReselladosOAutenticacionDeCopiaDePlanosAprobados,#SolicitudEfectuadaPorLosMoradoresPoseedoresAFinDeSerDeclaradosAptosParaConformarUnaAsociacionDeVivienda,#SolicitudParaIdentificacionYDeclaracionDeAreasDeTratamiento,#SolicitudDeDeclaracionDePredioTugurizado,#ConstanciaDePosesionParaFinesDelOtorgamientoDeServiciosBasicos,#CertificadoDeNumeracionParaEdificacionSaneadaYConcluida,#CertificadoDeNumeracionParaNuevaEdificacion,#CertificadoDeNomenclaturaVial,#CertificadoDeJurisdiccion,#ActualizacionDeLaInformacionCatastral,#RectificacionDeFichaCatastral,#CertificadoCatastral,#RegularizacionDeHabilitacionesUrbanasEjecutadasSePodranRegularizarLasHabilitacionesUrbanasEjecutadasHastaEl25DeSetiembreDel2007Juridico,#RegularizacionDeHabilitacionesUrbanasEjecutadasSePodranRegularizarLasHabilitacionesUrbanasEjecutadasHastaEl25DeSetiembreDel2007,#SubdivisionDeLoteUrbanoJuridico,#SubdivisionDeLoteUrbano,#IndependizacionOParcelacionDeTerrenosRusticosJuridico,#IndependizacionOParcelacionDeTerrenosRusticos,#ConVariacionesQueConsiderenSustancialesModalidadBCYDConEvaluacionDeLaComisionTecnicaJuridico,#ConVariacionesQueConsiderenSustancialesModalidadBCYDConEvaluacionDeLaComisionTecnica,#RecepcionDeObrasDeHabilitacionUrbanaSinVariacionesModalidadesBCYDJuridico,#RecepcionDeObrasDeHabilitacionUrbanaSinVariacionesModalidadesBCYD,#ModificacionDeProyectosDeHabilitacionUrbanaModalidadCYD,#ModificacionDeProyectosDeHabilitacionUrbanaModalidadB,#LicenciaDeHabilitacionUrbanaModalidadDAprobacionConEvaluacionPreviaDelProyectoPorLaComisionTecnicaJuridico,#LicenciaDeHabilitacionUrbanaModalidadDAprobacionConEvaluacionPreviaDelProyectoPorLaComisionTecnica,#LicenciaDeHabilitacionUrbanaModalidadCAprobacionConEvaluacionPreviaDelProyectoPorLaComisionTecnicaJuridica,#LicenciaDeHabilitacionUrbanaModalidadCAprobacionConEvaluacionPreviaDelProyectoPorLaComisionTecnica,#LicenciaDeHabilitacionUrbanaModalidadBJuridico,#LicenciaDeHabilitacionUrbanaModalidadB,#RegularizacionDeEdificacionesSePodranRegularizarLasEdificacionesEjecutadasHastaEl27DeSetiembreDel2008Juridico,#RegularizacionDeEdificacionesSePodranRegularizarLasEdificacionesEjecutadasHastaEl27DeSetiembreDel2008,#ProrrogaDeLaLicenciaDeEdificacion,#RevalidacionDeLicenciaDeEdificacionVencidoElPlazoDeLaLicenciaSePodraRevalidarlaPor36Meses,#CertificadoDeParametrosUrbanisticosYEdificatorios,#PreDeclaratoriaDeEdificacionJuridico,#PreDeclaratoriaDeEdificacion,#AnteproyectoEnConsultaModalidadCYD,#AnteproyectoEnConsultaModalidadAYB,#ModalidadCYD,#ModalidadCYDJuridico,#ModalidadBJuridico,#ModalidadB,#ModalidadAJuridico,#ModalidadA,#page12Juridica,#ConformidadDeObraYDeclaratoriaDeEdificacionSinVariacionModalidadABCYDJuridico,#ConformidadDeObraYDeclaratoriaDeEdificacionSinVariacionModalidadABCYD,#LocalesDeEspectaculosDeportivosDeMasDe20000Ocupantes,#ModificacionDeLicenciaEnLaModalidadAModificacionesSustanciales,#ModificacionDeProyectosEnLasModalidadesCYDComisionTecnicaAntesDeEmitidaLaLicenciaDeEdificacion,#EdificacionesParaFinesEducativosSaludHospedajeEstablecimientosDeExpendioDeCombustiblesYTerminalesDeTransporteJuridico,#LocalesDeEspectaculosDeportivosDeMasDe20000OcupantesJuridico,#EdificacionesParaMercadosQueCuentenConMasDe15000M2DeAreaConstruidaJuridico,#EdificacionesParaLocalesComercialesCulturalesCentrosDeDiversionYSalasDeEspectaculosQueIndividualmenteOEnConjuntoCuentenConMasDe30000M2DeAreaConstruidaJuridico,#ModificacionDeProyectosEnLaModalidadBAntesDeEmitidaLaLicenciaDeEdificacion,#EdificacionesParaFinesDeIndustriaJuridico,#RenovacionDelRegistroDeOrganizacionesVecinales,#RegistroDeOrganizacionesVecinales,#DonacionDePlantasAVecinos,#DuplicadoDeCertificadoDeLicenciaDeFuncionamiento,#CeseDeActividadesComercialesIndustrialesYODeServiciosDeUsoDeRetiroMunicipalYOAnunciosPublicitariosJudicial,#CeseDeActividadesComercialesIndustrialesYODeServiciosDeUsoDeRetiroMunicipalYOAnunciosPublicitarios,#AutorizacionTemporalParaUsoDeRetiroMunicipalConFinesComercialesParaEstablecimientosConLicenciaDeFuncionamiento,#PorCambioDeOtrosDatosVinculadoConLaLicenciaJuridico,#PorCambioDeOtrosDatosVinculadoConLaLicencia,#PorCambioDeRazonSocialJuridico,#PorCambioDeRazonSocial,#AmpliacionDeGiroCompatibleJuridico,#AmpliacionDeGiroCompatible,#VariacionDeAreaComercialOEconomicaJuridico,#VariacionDeAreaComercialOEconomica,#LicenciaDeFuncionamientoParaCesionariosHasta500M2Juridico,#LicenciaDeFuncionamientoParaCesionariosHasta500M2,#LicenciaDeFuncionamientoCorporativasParaMercadosDeAbastoGaleriasYCentrosComerciales,#EstablecimientosConUnAreaMasDe500M2YNoComprendidosEnLasCategoriasAnterioresJuridico,#EstablecimientosConUnAreaMasDe500M2YNoComprendidosEnLasCategoriasAnteriores,#EstablecimientosConUnAreaMasDe100M2Hasta500M2ConItsdcBasicaExAnteJuridico,#EstablecimientosConUnAreaMasDe100M2Hasta500M2ConItsdcBasicaExAnte,#EstablecimientosConUnAreaDeHasta100M2YConUnaCapacidadNoMayorDeAlmacenamientoDe30DelAreaTotalDelLocalConItsdcBasicaExPostJuridico,#EstablecimientosConUnAreaDeHasta100M2YConUnaCapacidadNoMayorDeAlmacenamientoDe30DelAreaTotalDelLocalConItsdcBasicaExPost,#ExAnteMayorA100M2Hasta500M2,#ExPostHasta100M2YCapacidadDeAlmacenamientoNoMayorA30DelAreaTotalDelLocal2,#ExAnteMayorA100M2Hasta500M2,#ExPostHasta100M2YCapacidadDeAlmacenamientoNoMayorA30DelAreaTotalDelLocal,#EdificacionesParaFinesDeIndustriaJuridica,#EdificacionesParaFinesEducativosSaludHospedajeEstablecimientosDeExpendioDeCombustiblesYTerminalesDeTransporte,#LocalesDeEspectaculosDeportivosDeMasDe20000Ocupantes,#EdificacionesParaLocalesComercialesCulturalesCentrosDeDiversionYSalasDeEspectaculosQueIndividualmenteOEnConjuntoCuentenConMasDe30000M2DeAreaConstruida,#EdificacionesParaMercadosQueCuentenConMasDe15000M2DeAreaConstruida,#EdificacionesParaFinesDeIndustria,#DemolicionesTotalesDeEdificacionesDe5OMasPisosDeAlturaOAquellasQueRequieranElUsoDeExplosivosJuridico,#DemolicionesTotalesDeEdificacionesDe5OMasPisosDeAlturaOAquellasQueRequieranElUsoDeExplosivos,#TodasLasDemasEdificacionesNoContempladasEnLasModalidadesABYDJuridico,#popupLocalesParaEspectaculosDeportivosDeHasta20000OcupantesJuridico2,#EdificacionesParaMercadosQueCuentenConUnMaximoDe15000M2DeAreaConstruidaJuridico,#EdificacionesParaLocalesComercialesCulturalesCentrosDeDiversionYSalasDeEspectaculosQueIndividualmenteOEnConjuntoCuentenConUnMaximoDe30000M2DeAreaConstruidaJuridico,#IntervencionesQueSeDesarrollenEnBienesCulturalesInmueblesPreviamenteDeclaradosJuridico,#EdificacionesDeUsoMixtoConViviendaJuridico,#EdificacionesParaFinesDiferentesDeViviendaAExcepcionDeLasPrevistasEnLaModalidadDJuridico,#ParaViviendaMultifamiliarQuintaOCondominiosQueIncluyanViviendaMultifamiliarDeMasDe5PisosYOMasDe3000M2DeAreaConstruidaJuridico,#TodasLasDemasEdificacionesNoContempladasEnLasModalidadesABYD,#LocalesParaEspectaculosDeportivosDeHasta20000Ocupantes,#EdificacionesParaMercadosQueCuentenConUnMaximoDe15000M2DeAreaConstruida,#EdificacionesParaLocalesComercialesCulturalesCentrosDeDiversionYSalasDeEspectaculosQueIndividualmenteOEnConjuntoCuentenConUnMaximoDe30000M2DeAreaConstruida,#IntervencionesQueSeDesarrollenEnBienesCulturalesInmueblesPreviamenteDeclarados,#EdificacionesDeUsoMixtoConVivienda,#ParaViviendaMultifamiliarQuintaOCondominiosQueIncluyanViviendaMultifamiliarDeMasDe5PisosYOMasDe3000M2DeAreaConstruida,#EdificacionesParaFinesDiferentesDeViviendaAExcepcionDeLasPrevistasEnLaModalidadD,#LaConstruccionDeCercosEnInmueblesQueSeEncuentrenBajoElRegimenDeUnidadesInmobiliariasDePropiedadExclusivaYDePropiedadComunDeAcuerdoALaLegislacionDeLaMateriaJuridico,#LaConstruccionDeCercosEnInmueblesQueSeEncuentrenBajoElRegimenDeUnidadesInmobiliariasDePropiedadExclusivaYDePropiedadComunDeAcuerdoALaLegislacionDeLaMateria,#EnCasoDeDemolicionesParcialesJuridica,#LasEdificacionesParaFinesDeViviendaUnifamiliarMultifamiliarQuintaOCondominiosDeViviendaUnifamiliarYOMultifamiliarNoMayoresACinco5PisosSiempreQueElProyectoTengaUnMaximoDe3000M2DeAreaConstruida,#LasEdificacionesParaFinesDeViviendaUnifamiliarMultifamiliarQuintaOCondominiosDeViviendaUnifamiliarOMultifamiliarNoMayoresACinco5PisosSiempreQueElProyectoTengaUnMaximoDe3000M2DeAreaConstruidaJuridico,#LasObrasDeAmpliacionORemodelacionDeUnaEdificacionExistenteConModificacionEstructuralAumentoDeAreaConstruidaOCambioDeUsoLasAmpliacionesProcederanSoloCuandoLaEdificacionExistenteMantengaElUsoResidencialJuridico,#LasObrasDeAmpliacionORemodelacionDeUnaEdificacionExistenteConModificacionEstructuralAumentoDeAreaConstruidaOCambioDeUsoLasAmpliacionesProcederanSoloCuandoLaEdificacionExistenteMantengaElUsoResidencial,#LaConstruccionDeCercosDeMasDe20MetrosDeLongitudSiempreQueElInmuebleNoSeEncuentreBajoElRegimenDeUnidadesInmobiliariasDePropiedadExclusivaYDePropiedadComunDeAcuerdoALaLegislacionDeLaMateriaJuridico,#LaConstruccionDeCercosDeMasDe20MetrosDeLongitudSiempreQueElInmuebleNoSeEncuentreBajoElRegimenDeUnidadesInmobiliariasDePropiedadExclusivaYDePropiedadComunDeAcuerdoALaLegislacionDeLaMateria,#LaDemolicionTotalDeEdificacionesMenoresDe5PisosDeAlturaSiempreQueNoRequieranElUsoDeExplosivos,#LaDemolicionTotalDeEdificacionesMenoresDe5PisosDeAlturaSiempreQueNoRequieranElUsoDeExplosivosJuridico,#LasObrasDeCaracterMilitarDeLasFuerzasArmadasYLasDeCaracterPolicialDeLaPoliciaNacionalDelPeruAsiComoDeLosEstablecimientosPenitenciariosQueDeberanEjecutarseConSujecionALosPlanesDeAcondicionamientoTerritorialYDesarrolloUrbano,#LasObrasDeCaracterMilitarDeLasFuerzasArmadasYLasDeCaracterPolicialDeLaPoliciaNacionalDelPeruAsiComoDeLosEstablecimientosPenitenciariosQueDeberanEjecutarseConSujecionALosPlanesDeAcondicionamientoTerritorialYDesarrolloUrbanoJudicial,#AmpliacionesConsideradasObrasMenoresSegunLoEstablecidoEnElReglamentoNacionalDeEdificaciones,#AmpliacionesConsideradasObrasMenoresSegunLoEstablecidoEnElReglamentoNacionalDeEdificacionesJudicial,#LaRemodelacionDeUnaViviendaUnifamiliarSinModificacionEstructuralNiCambioDeUsoNiAumentoDeAreaConstruidaJuridica,#LaRemodelacionDeUnaViviendaUnifamiliarSinModificacionEstructuralNiCambioDeUsoNiAumentoDeAreaConstruida,#LaAmpliacionDeUnaViviendaUnifamiliarCuyaEdificacionOriginalCuenteConLicenciaDeConstruccionODeclaratoriaDeFabricaYOEdificacionYLaSumatoriaDelAreaConstruidaDeAmbasNoSupereLos200M2Juridica,#LaAmpliacionDeUnaViviendaUnifamiliarCuyaEdificacionOriginalCuenteConLicenciaDeConstruccionODeclaratoriaDeFabricaYOEdificacionYLaSumatoriaDelAreaConstruidaDeAmbasNoSupereLos200M2,#LaConstruccionDeUnaViviendaUnifamiliarDeHasta120m2ConstruidosSiempreQueConstituyaLaUnicaEdificacionEnElLoteJuridica,#LaConstruccionDeUnaViviendaUnifamiliarDeHasta120m2ConstruidosSiempreQueConstituyaLaUnicaEdificacionEnElLote,#AutorizacionDePodaYoTalaDeArbolesEnZonaDeRetiroMunicipal,#RegistroDeCanes,#RealizadasEnLocalesORecintosNoAfinesASuDiseno,#RealizadasEnRecintosYooLocalesNoAfinesASuDiseno,#RealizadasEnEdificacionesORecintosAfinesASuDiseno,#RealizadasEnRecintosOEdificacionesAfinesASuDisenoo,#RealizadasEnRecintosYoLocalesNoAfinesASuDiseno,#RealizadasEnRecintosOLocalesNoAfinesASuDiseno,#RealizadasEnRecintosYoEdificacionesAfinesASuDiseno,#RealizadasEnRecintosOEdificacionesAfinesASuDiseno,#AutorizacionParaEventosyoEspectaculosPublicosnoDeportivosYoActividadesSocialesRealizadosEnLaViaPublicaOLugaresNoConfinadosabiertosAlPublicoEventualesComoFeriasGastromicasArtesanalesYotras,#AutorizacionParaEventosYEspectaculosPublicosnoDeportivosYActividadesSocialesRealizadosEnLaViaPublicaOLugaresNoConfinadosabiertosAlPublicoEventualesComoFeriasGastronomicasArtesanalesYOtras,#DuplicadoDeCertificadoDePermisoDeOperacion,#ReprogramacionDelCronogramaDeObraASolicitudDeParte,#InspeccionOcularEnAreaDeUsoPublicoASolicitudDeParte,#AutorizacionEnAreaDeUsoPublicoParaInstalacionDomiciliariaDelServicioDeAguaYDesague,#ModificacionDelRegistroMunicipalDeVehiculosMenoresPorIncrementoDeVehiculos,#ModificacionDelRegistroMunicipalDeVehiculosMenoresPorCambioDeDenominacionORazonSocial,#ModificacionDelRegistroMunicipalDeVehiculosMenoresPorCambioDeDatosRespectoDelTransportadorAutorizadoconductorYVehiculosMenoresIncluyeBajaDeVehiculos,#RenovacionDePermisoDeOperacionAPersonasJuridicasParaPrestarElServicioConVehiculosMenores,#PermisoDeOperacionAPersonasJuridicasParaPrestarElServicioConVehiculosMenores,#CertificadoDeConformidadDeObraEnAreaDeUsoPublico,#AmpliacionDeAutorizacionParaAmpliacionDeRedesSubterraneasOCasosEspecialesEnAreaDeUsoPublicoNoVinculadosConTelecomunicacioness,#AutorizacionParaAmpliacionDeRedesSubterraneasOCasosEspecialesEnAreaDeUsoPublicoNoVinculadosConTelecomunicaciones,#RenovacionDeLaAutorizacionParaInstalacionDeElementosDeSeguridaddEnAreaDeUsoPublico,#AutorizacionParaLaInstalacionDeElementosDeSeguridadEnAreaDeUsoPublico,#AutorizacionParaInstalacionDeCableadoSubterraneo,#AmpliacionDeAutorizacionEnAreaDeUsoPublicoDeInstalacionDeRedesDeTelecomunicaciones,#AutorizacionParaLaRemodelacionDelAreaDeUsoPublico,#CertificadoDeConformidadDeObraVinculadoALosServiciosPublicosDeTelecomunicaciones,#AutorizacionParaLaOcupacionDeAreaDeUsoPublicoConCercoDeObrasParaMaterialesDeConstruccionEInstalacionesProvisionalesDeCasetasUOtras,#AutorizacionParaLaPuestaATierraEnAreaDeUsoPublicoParaTelecomunicaciones,#page10juridica,#AutorizacionParaAmpliacionDeRedesSubterraneasOCasosEspecialesEnAreaDeUsoPublico,
+#AutorizacionParaInstalacionDeCabinasTelefonicasEnAreaDeUsoPublico,#AutorizacionParaLaConstruccionDeCamaraSubterraneaEnAreaDeUsoPublico,#AutorizacionParaConstruccionYoRefaccionDeSardinelesYVeredasEnAreaDeUsoPublico,
+#AutorizacionParaConstruccionDeBuzonesDeDesagueEnAreaDeUsoPublico,#AutorizacionEnAreaDeUsoPublicoParaInstalacionDomiciliariaDelServicioDeEnergiaElectricaYTelecomunicaciones,#AutorizacionParaReubicacionYoCambioDePostesAnclajeEnAreaDeUsoPublicoParaElServicioDeTelecomunicaciones,
+#AutorizacionParaMantenimientoDeCableadoAereoDeTelecomunicacionesExistenteEnAreasDeUsoPublico,#RecursoDeReconsideracionContraMultasAdministrativasPersonaJuridica,#RecursoDeApelacionContraResolucionQueDeclaraInfundadoOImprocedenteElRecursoDeReconsideracionContraMultasAdministrativasPersonaJuridica,#ApelacionContraResolucionQueResuelveRecursoDeReconsideracionContraLaPerdidaDeFraccionamientoPorMultasAdministrativasPersonaJuridica,#page13juridica,#SolicitudDeInafectacionDelImpuestoPredial,#GobiernosExtranjerosEnCondicionDeReciprocidad,#OrganismosInternacionalesReconocidosPorElGobierno,#SociedadesDeBeneficencias,#EntidadesReligiosas,#EntidadesReligiosasNoCatolicas,#EntidadesPublicasDestinadasAPrestarServiciosMedicosAsistenciales,#CentrosEducativosYUniversidades,#OrganizacionesPoliticas,#OrganizacionDePersonasConDiscapacidad,#Sindicatos,#PrediosDeclaradosMonumentosIntegrantesDelPatrimonioCulturalDeLaNacionPorElInc,#RecursoDeReclamacionContraResolucionDePerdidaDeFraccionamientoEnMateriaTributaria,#RecursoDeApelacionDeResolucionesQueDenieganTerceriasEnMateriaTributaria,#RecursoDeReclamacion,#RecursoDeApelacionDeResolucionQueResuelveRecursoDeReclamacion,#RecursoDeApelacionDePuroDerecho,#RecursoDeApelacionDeDenegatoriaDeCompensacionInafectacionOPrescripcion,#ApelacionContraResolucionQueResuelveRecursoDeReconsideracionContraLaPerdidaDeFraccionamientoPorMultasAdministrativas,#RecursoDeApelacionContraResolucionQueDeclaraInfundadoOImprocedenteElRecursoDeReconsideracionContraMultasAdministrativas,#RecursoDeReconsideracionContraMultasAdministrativas,#PersonaJuridica,#pagePersonaJuridica,#page5juridica,#MatrimonioCivil,#ParaMenoresDeEdad,#ParaDivorciados,#ParaViudos,#ParaExtranjeros,#ParaMatrimoniosPorPoder,#DispensaParcialDePublicacionDeAvisoMatrimonial,#ExhibicionDeEdictosMatrimonialesTramitadosEnOtrosMunicipios,#ReprogramacionDeFechaDeMatrimonio,#SeparacionConvencional,#EnCasoDeNoTenerHijos,#EnCasoDeTenerHijosMenores,#EnCasoDeTenerHijosMayoresConIncapacidad,#EnCasoDeRequisitosRelacionadosConElPatrimonio,#AccesoALaInformacionQuePoseaOProduzcaLaMunicipalidad,#DivorcioUlterior,#CopiaCertificadaDeDocumentos,#CopiaDePlanos,#CopiaCertificadaDePlanos,#RetiroODesgloseDeDocumentacionDelExpediente,#FraccionamientoDeDeudasTributarias,#FraccionamientoDeDeudasPorMultasAdministrativas,#TerceriaDePropiedadAnteCobranzaDeObligacionesTributarias,#SolicitudDeSuspensionDeCobranzaCoactivaDeObligacionesTributarias,#FraccionamientoDeDeudasTributarias,#FraccionamientoDeDeudasPorMultasAdministrativas,#TerceriaDePropiedadAnteCobranzaDeObligacionesTributarias,#SolicitudDeSuspensionDeCobranzaCoactivaDeObligacionesTributarias,#TerceriaDePropiedadAnteCobranzaDeObligacionesNoTributarias,#SolicitudDeSuspensionDeCobranzaCoactivaDeObligacionesNoTributarias,#SolicitudDeDevolucionEnMateriaTributaria,#SolicitudDeCompensacionEnMateriaTributaria,#SolicitudDePrescripcionEnMateriaTributaria,#ImpuestoPredial,#ArbitriosMunicipales,#InafectacionAlImpuestoPredial,#InafectacionAlImpuestoDeAlcabalaHastaElAno2001,#PagoDeTributos,#page2,#page3,#page8,#page9,#page5,#page11,#page7,#page10,#page,#page4,#page6,#page12,#page13,#page14,#page15,#page16,#page17,#page18,#page19,#page20,#page21,#page22,#page23,#page24,#page25,#page26,#page27,#page28,#page29,#page30,#page31,#page32,#page33,#page34,#page35,#page36,#page37,#page38,#page39,#page40,#page41,#page42,#page43,#page44,#page45,#page46,#page47,#page48,#page49{
+
+max-width:1300px;
+margin:0 auto;
+position:relative;
+}
+
+
+
+
+.poppup{
+	
+background-image: url('../imagenes/07-Popup.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+max-width: 1090px;
+max-height: 691px;
+	
+}
+
+.text-float{
+  height: 15px;
+  padding-left: 45px;
+  font-family: "AlteHaasGroteskRegular";
+}
+
+
+.margenes{
+	margin-top:11%;
+	
+}
+
+.logomenu {
+	
+	 width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; left: 0;
+  background: url(../imagenes/fondomenu.png)0 100% no-repeat;
+  
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+
+
+}
+
+
+.fondobloque1{
+	color:#000;
+	background-color:#C6E2FF;
+	
+}
+
+
+#global {
+	height: 38em;
+	width: 50%;
+	border: 1px solid #ddd;
+	overflow-y: scroll;
+	margin:auto;
+	margin-top:16%;
+	
+	
+}
+
+#global::-webkit-scrollbar {
+    width: 1.2em;
+}
+
+#global::-webkit-scrollbar-track {
+    background-color: #FFF;
+    border-left: 1px solid #ccc;
+}
+#global::-webkit-scrollbar-thumb {
+    background-color:#039;
+}
+#global::-webkit-scrollbar-thumb:hover {
+	background-color:#009;
+}
+
+.content-obs::-webkit-scrollbar {
+    width: 1.2em;
+}
+
+.content-obs::-webkit-scrollbar-track {
+    background-color: #FFF;
+    border-left: 1px solid #ccc;
+}
+.content-obs::-webkit-scrollbar-thumb {
+    background-color:#039;
+}
+.content-obs::-webkit-scrollbar-thumb:hover {
+	background-color:#009;
+}
+
+#mensajes {
+	height: auto;
+}
+
+.texto2 {
+	padding:3%;
+	font-size:1.8em;
+	text-align:justify;
+	height: auto;
+}
+
+.relleno-texto{
+     -webkit-opacity: 0.0;
+     -moz-opacity: 0.0;
+     -ms-opacity: 0.0;
+     -o-opacity: 0.0;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
+}
+
+.texto {
+	padding:3%;
+	
+	height: auto;
+}
+
+
+.texto>a{
+
+  font-size: 1.8em;
+  margin: .5em 0;
+  display: block;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  /*white-space: normal;*/
+  cursor: pointer;
+
+}
+
+                  .content-paso1{
+                   position: absolute;
+                   z-index: 3;
+                   width: 16%;
+                   height: 30%;
+                   
+                  }
+
+                  .content-paso2{
+                   position: absolute;
+                   z-index: 3;
+                   width: 16%;
+                   left: 20%;
+                   height: 30%;
+                   
+                  }
+
+                  .content-paso3{
+                   position: absolute;
+                   z-index: 3;
+                   width: 16%;
+                   left: 35%;
+                   height: 30%;
+                   
+                  }
+
+                   .content-paso4{
+                   position: absolute;
+                   z-index: 3;
+                   width: 16%;
+                   left: 50.1%;
+                   height: 30%;
+                   
+                  }
+
+                  .content-paso5{
+                   position: absolute;
+                   z-index: 3;
+                   width: 16%;
+                   left: 65.1%;
+                   height: 30%;
+                   
+                  }
+
+                  .content-paso6{
+                   position: absolute;
+                   z-index: 3;
+                   width: 16%;
+                   left: 80.13%;
+                   height: 30%;
+                   
+                  }
+
+                  .content-boton{
+                   position:absolute; 
+                   width: 80% ; 
+                   height: 60%;
+                   top:-45%;
+                   left: 5%;
+                   z-index:5;
+                  }
+
+
+
+
+
+.botoncamino {
+  padding: 1%;
+  width: 10.8%;
+  height: 13%;
+  position: absolute;
+	
+}
+
+
+
+.botoncamino>a{
+
+  margin: .5em 0;
+  display: block;
+  cursor: pointer;
+
+}
+
+.font-arial{
+ font-family: "AlteHaasGroteskRegular";
+}
+
+.fondo-botones-tramites .fila1-botones .btn4-1>a:active{
+	 -webkit-animation-duration: 1s;
+  -webkit-animation-name: botoncamino2;	
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-timing-function:cubic-bezier(0.25,0.1,0.25,1);
+
+  -webkit-animation-delay: 0s;
+}
+
+.fondo-botones-tramites .fila1-botones .btn5-1>a:active{
+	 -webkit-animation-duration: 1s;
+  -webkit-animation-name: botoncamino2;	
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-timing-function:cubic-bezier(0.25,0.1,0.25,1);
+
+  -webkit-animation-delay: 0s;
+}
+
+
+.fondo-botones-tramites .fila1-botones .btn1>a:active{
+	 -webkit-animation-duration: 1s;
+  -webkit-animation-name: botoncamino2;	
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-timing-function:cubic-bezier(0.25,0.1,0.25,1);
+
+  -webkit-animation-delay: 0s;
+}
+
+.fondo-botones-tramites .fila1-botones .btn2>a:active{
+	 -webkit-animation-duration: 1s;
+  -webkit-animation-name: botoncamino2;	
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-timing-function:cubic-bezier(0.25,0.1,0.25,1);
+
+  -webkit-animation-delay: 0s;
+}
+
+
+.fondo-botones-tramites .fila1-botones .btn3>a:active{
+	 -webkit-animation-duration: 1s;
+  -webkit-animation-name: botoncamino2;	
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-timing-function:cubic-bezier(0.25,0.1,0.25,1);
+
+  -webkit-animation-delay: 0s;
+}
+
+.fondo-botones-tramites .fila1-botones .btn4>a:active{
+	 -webkit-animation-duration: 1s;
+  -webkit-animation-name: botoncamino2;	
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-timing-function:cubic-bezier(0.25,0.1,0.25,1);
+
+  -webkit-animation-delay: 0s;
+}
+
+.fondo-botones-tramites .fila1-botones .btn5>a:active{
+	 -webkit-animation-duration: 1s;
+  -webkit-animation-name: botoncamino2;	
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-timing-function:cubic-bezier(0.25,0.1,0.25,1);
+
+  -webkit-animation-delay: 0s;
+}
+
+
+
+.fondo-botones-tramites .fila2-botones .btn1>a:active{
+	 -webkit-animation-duration: 1s;
+  -webkit-animation-name: botoncamino2;	
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-timing-function:cubic-bezier(0.25,0.1,0.25,1);
+
+  -webkit-animation-delay: 0s;
+}
+
+.fondo-botones-tramites .fila2-botones .btn2>a:active{
+	 -webkit-animation-duration: 1s;
+  -webkit-animation-name: botoncamino2;	
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-timing-function:cubic-bezier(0.25,0.1,0.25,1);
+
+  -webkit-animation-delay: 0s;
+}
+
+
+.fondo-botones-tramites .fila2-botones .btn3>a:active{
+	 -webkit-animation-duration: 1s;
+  -webkit-animation-name: botoncamino2;	
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-timing-function:cubic-bezier(0.25,0.1,0.25,1);
+
+  -webkit-animation-delay: 0s;
+}
+
+.fondo-botones-tramites .fila2-botones .btn4>a:active{
+	 -webkit-animation-duration: 1s;
+  -webkit-animation-name: botoncamino2;	
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-timing-function:cubic-bezier(0.25,0.1,0.25,1);
+
+  -webkit-animation-delay: 0s;
+}
+
+@keyframes botoncamino2 {
+ from {
+ transform:scale(1) ;
+-webkit-transform:scale(1) ;
+-o-transform:scale(1) ;
+-moz-transform:scale(1);
+-ms-transform:scale(1) ;
+  }
+
+  to {
+  transform:scale(0.7) ;
+-webkit-transform:scale(0.7) ;
+-o-transform:scale(0.7);
+-moz-transform:scale(0.7) ;
+-ms-transform:scale(0.7) ;
+  }
+}
+
+@-webkit-keyframes botoncamino2 {
+  from {
+ transform:scale(1) ;
+-webkit-transform:scale(1) ;
+-o-transform:scale(1) ;
+-moz-transform:scale(1);
+-ms-transform:scale(1) ;
+  }
+
+  to {
+  transform:scale(0.7) ;
+-webkit-transform:scale(0.7) ;
+-o-transform:scale(0.7);
+-moz-transform:scale(0.7) ;
+-ms-transform:scale(0.7) ;
+  }
+}
+
+
+.listitem {
+    margin-top: -13px !important;
+}
+#list{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+#list .ui-li {
+    border: none;
+}
+
+
+
+.fachadamov {
+  background:  url(../imagenes/muni_movimiento-01.png) 0 100%;
+  
+
+  z-index: 2;
+  height:2329px;
+  width:2292px;
+  position: absolute;
+  left: 0;
+  margin-top:-88%;
+  margin-left:-13%;
+
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  
+   -webkit-animation: fachadamov 0.6s steps(5, end) ;
+    -webkit-animation-fill-mode:forwards;
+ -webkit-animation-delay: 1.5s;
+ 
+  -moz-animation: fachadamov 0.6s steps(5, end) ;
+    -moz-animation-fill-mode:forwards;
+ -moz-animation-delay: 1.5s;
+ 
+ -ms-animation: fachadamov 0.6s steps(5, end) ;
+ -ms-animation-fill-mode:forwards;
+ -ms-animation-delay: 1.5s;
+ 
+ -o-animation: fachadamov 0.6s steps(5, end) ;
+ -o-animation-fill-mode:forwards;
+ -o-animation-delay: 1.5s;
+  
+}
+
+
+@keyframes fachadamov {  
+  from {background-position-x: 0px; } 
+  to {background-position-x: -11460px; } 
+}
+
+@-webkit-keyframes fachadamov {  
+  from {background-position-x: 0px; } 
+  to {background-position-x: -11460px; } 
+}
+
+
+.fondofachada {
+  background: url(../imagenes/fondofachada.png)0 100% no-repeat;
+  z-index: 1;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+
+
+}
+
+
+/*  MEDIA QUERIES  */
+
